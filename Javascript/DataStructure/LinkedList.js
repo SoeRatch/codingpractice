@@ -132,7 +132,7 @@ class LinkedList {
 		let curr= this.head;
 
 		while(curr!=null){
-			if(curr.element=element){
+			if(curr.element==element){
 				return count;
 			}
 			count++;
